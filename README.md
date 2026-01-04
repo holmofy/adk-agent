@@ -122,6 +122,6 @@ Apache 2.0 License
 
 ## 相关项目
 
-- [原版 react-loop](../react-loop/): 从零实现的简单版本
+- [原版 react-loop](https://github.com/holmofy/react-loop/): 从零实现的简单版本
 - [adk-rust](https://github.com/zavora-ai/adk-rust): 底层框架
 - [Google ADK](https://github.com/google/adk-python): 官方 Python 版本
