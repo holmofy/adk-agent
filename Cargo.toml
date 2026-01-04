@@ -1,0 +1,22 @@
+[package]
+name = "adk-agent"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[dependencies]
+# ADK-Rust core dependencies - 使用默认特性
+adk-rust = { version = "0.1.9", default-features = true }
+
+# Additional dependencies
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dotenvy = "0.15"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+futures = "0.3"
+anyhow = "1.0"
